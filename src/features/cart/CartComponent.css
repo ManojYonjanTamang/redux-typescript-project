@@ -1,0 +1,125 @@
+.cart__product--card {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  width: 55rem;
+  overflow-wrap: wrap;
+  background-color: #f0f0f0;
+}
+.cart__product--card:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px #bbbbbb;
+}
+.cart__product--card > * {
+  margin: 0.7rem;
+}
+.cartImage__container {
+  height: 5rem;
+  width: 7rem;
+  position: relative;
+}
+.cartImage__container img {
+  height: 5rem;
+  width: 7rem;
+  object-fit: cover;
+}
+
+.info__section {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.75rem;
+  min-width: 22rem;
+  max-width: 22rem;
+
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+.cart__card--name {
+  font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cart__card--category {
+  font-size: 0.75rem;
+  color: rgb(37, 37, 37);
+}
+.cart__card--available {
+  font-size: 0.9rem;
+}
+
+.cart__card--price {
+  color: #213555;
+  font-size: 1.25rem;
+  min-width: 7rem;
+}
+
+.cart__card--deleteIcon {
+  font-size: 1.5rem;
+  width: 4rem;
+}
+.cart__card--deleteIcon:hover {
+  cursor: pointer;
+  color: orangered;
+}
+
+.cart__card--changeCount {
+  /* margin-left: auto; */
+  display: flex;
+  align-items: center;
+  width: 8rem;
+}
+
+.decrement,
+.increment {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #4f709c;
+}
+
+.checkbox__cart {
+  display: flex;
+  margin: 1rem;
+}
+
+.cartCheckout__container {
+  display: flex;
+}
+
+.checkout__card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 2rem;
+  background-color: #f0f0f0;
+  height: fit-content;
+  padding: 1rem;
+  width: 20rem;
+}
+.checkoutCard__input {
+  height: 2rem;
+  padding: 0.25rem;
+  margin-right: 1rem;
+}
+
+.checkout__button {
+  height: 2rem;
+  padding: 0.25rem;
+  background-color: #4f709c;
+  color: #f0f0f0;
+  border: none;
+  width: 100%;
+}
+.checkoutCard__applyButton {
+  width: 5rem;
+}
+.checkoutCard__applyButton:hover,
+.checkout__button:hover {
+  cursor: pointer;
+  background-color: #213555;
+}
+.promocode__success {
+  color: #213555;
+  margin: 0.25rem 0;
+  line-height: 2rem;
+}
